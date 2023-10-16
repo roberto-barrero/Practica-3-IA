@@ -23,6 +23,16 @@ class NaiveBayesClassifier:
         self.training_data = None
 ```
 
+- ```class_counts``` = Número de apariciones de cada clase
+- ```feature_counts_per_class``` = Número de apariciones de cada valor por categoría y clase
+- ```feature_count_global``` = Número global de apariciones de cada valor por categoría
+- ```feature_probabilities``` = Probabilidades condicionales de cada categoría por clase
+- ```class_probabilities``` = Probabilidades a priori de cada clase
+- ```classes``` = Conjunto de clases posibles
+- ```features``` = Conjunto de categorías o parámetros
+- ```className``` = Nombre del campo de la clase ("Asado")
+- ```training_data``` = Conjunto de datos de entenamiento
+
 **Función Train**
 
 Dentro de la clase `NaiveBayesClassifier` se definió la función ``train()`, que recibe un conjunto de datos (entradas) y las utiliza para "entrenar" y calcular las probabilidades de las características o parámetros.
